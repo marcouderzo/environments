@@ -6,7 +6,7 @@ Steps:
     b. get the link from: https://github.com/conda-forge/miniforge/releases
     c. download with wget 
     d. install with bash Miniforge3-*.sh
-2. Create the spanorm conda environment with: conda create -f spanorm.yml
+2. Create the spanorm conda environment with: conda env create -f spanorm.yml
 3. Activate the environment with: conda activate spanorm
 4. Find the opencl header directory with: find ~ -iname "*opencl*" -print
 5. Export the OPENCL_INC bash variable, it should point to the subdirectory "include" of the opencl header directory named "opencl-headers-***", e.g.:
